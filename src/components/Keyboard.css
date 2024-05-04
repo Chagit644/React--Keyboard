@@ -1,0 +1,83 @@
+/* keyboard.css */
+.keyboard {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.buttunsDoLetters {
+	background-color: #b8b1ed;
+}
+
+.basicKeyboard {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	width: 42%;
+	height: 50%;
+	justify-content: center;
+}
+
+
+.textcontainer {
+	width: 1050px;
+	height: 150px;
+	border: 2px solid rgba(0, 0, 0, 0.25);
+	overflow: auto;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.textcontainer pre {
+	text-align: left;
+	display: block;
+	width: calc(100% - 40px);
+	height: calc(100% - 40px);
+	margin: 0;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.keyboardcontainer {
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+.allTaxt {
+	background-color: #bd3664;
+	height: 100%;
+
+}
+
+.all {
+	width: auto;
+	background-color: #bd3664;
+}
+
+.lookLike {
+	background-Color: white;
+	height: 50px;
+	width: 700px;
+	margin: 3px;
+}
+
+.key:hover {
+	background-color: #3c4d56;
+}
+
+.forEach {
+	width: 150px;
+	margin-top: 15px;
+	background-color: #b8b1ed
+}
+
+.forAll {
+	width: 150px;
+	margin-top: 15px;
+	background-color: #bd3664
+}
